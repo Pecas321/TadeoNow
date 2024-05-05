@@ -15,6 +15,9 @@
         android:theme="@style/Theme.TadeoNow"
         tools:targetApi="31">
         <activity
+            android:name=".planes"
+            android:exported="false" />
+        <activity
             android:name=".usuario"
             android:exported="false" />
         <activity
