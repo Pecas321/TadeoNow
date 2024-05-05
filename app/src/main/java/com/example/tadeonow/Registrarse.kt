@@ -24,26 +24,4 @@ class Registrarse : AppCompatActivity() {
         setContentView(R.layout.activity_registrarse)
 
     }
-
-    private fun setup() {
-
-        title = "Autentificación"
-
-        findViewById<Button>(R.id.bt_registrarse).setOnClickListener {
-            if (findViewById<Button>(R.id.emailEditText).text.isNotEmpty() && findViewById<Button>(R.id.passwordEditText).text.isNotEmpty()) {
-                FirebaseAuth.getInstance()
-                    .createUserWithEmailAndPassword(
-                        findViewById<Button>(R.id.emailEditText).text.toString(),
-                        findViewById<Button>(R.id.passwordEditText).text.toString()
-                    ).addOnCompleteListener {
-                        if (it.isSuccessful) {
-                            showhome(it.result?.user?.email ?: "", ProviderType.BASIC)
-                        } else {
-                            showAlert()
-                        }
-                    }
-            }
-        }
-    }
-
 }
