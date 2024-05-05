@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "351097494112",
+    "project_id": "tadeonow-2024",
+    "storage_bucket": "tadeonow-2024.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:351097494112:android:66c675e970eac8acf64105",
+        "android_client_info": {
+          "package_name": "com.example.tadeonow"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9J1ELPxiPal5atk_G6SoBkMoy_2LBbhY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
