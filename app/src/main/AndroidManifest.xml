@@ -15,6 +15,15 @@
         android:theme="@style/Theme.TadeoNow"
         tools:targetApi="31">
         <activity
+            android:name=".fawergqewrg"
+            android:exported="false" />
+        <activity
+            android:name=".crear_plan"
+            android:exported="false" />
+        <activity
+            android:name=".agregar_plan"
+            android:exported="false" />
+        <activity
             android:name=".planes"
             android:exported="false" />
         <activity

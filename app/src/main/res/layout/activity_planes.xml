@@ -45,13 +45,13 @@
         app:srcCompat="@drawable/casarelleno" />
 
     <ImageButton
-        android:id="@+id/imageButton13"
+        android:id="@+id/bt_agregar_plan"
         android:layout_width="70dp"
         android:layout_height="60dp"
         android:background="#133D60"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.860"
+        app:layout_constraintHorizontal_bias="0.868"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.956"
