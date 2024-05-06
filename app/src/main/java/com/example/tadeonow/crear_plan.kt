@@ -1,8 +1,10 @@
 package com.example.tadeonow
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
+import android.widget.ImageButton
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -15,17 +17,29 @@ class crear_plan : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
         setContentView(R.layout.activity_crear_plan)
+
+        val imageBtnUsuarioCrear = findViewById<ImageButton>(R.id.image_bt_usuario_crear)
+        imageBtnUsuarioCrear.setOnClickListener {
+            val intent = Intent(this, usuario::class.java)
+            startActivity(intent)
+        }
+        val imageBtnCrearUsuarioCrear = findViewById<ImageButton>(R.id.image_crear_usuario_crear)
+        imageBtnCrearUsuarioCrear.setOnClickListener {
+            val intent = Intent(this, agregar_plan::class.java)
+            startActivity(intent)
+        }
+        val imageBtnInfoCrear = findViewById<ImageButton>(R.id.image_bt_info_crear)
+        imageBtnInfoCrear.setOnClickListener {
+            val intent = Intent(this, Informacion::class.java)
+            startActivity(intent)
+        }
+
+
 
         // Inicializar Firebase Firestore
         firestore = FirebaseFirestore.getInstance()
 
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
-        }
 
         // Obtener referencias de los EditText y el botón
         val nombrePlanEditText = findViewById<EditText>(R.id.editText_nombrePlan)

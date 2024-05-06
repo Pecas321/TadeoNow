@@ -15,9 +15,6 @@
         android:theme="@style/Theme.TadeoNow"
         tools:targetApi="31">
         <activity
-            android:name=".Salones"
-            android:exported="false" />
-        <activity
             android:name=".Biblioteca"
             android:exported="false" />
         <activity

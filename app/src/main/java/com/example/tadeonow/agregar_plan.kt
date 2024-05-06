@@ -20,11 +20,25 @@ class agregar_plan : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_agregar_plan)
+
+        val imageButtonUserPlanes = findViewById<ImageButton>(R.id.imageButton_user_planes)
+        imageButtonUserPlanes.setOnClickListener {
+            val intent = Intent(this, usuario::class.java)
+            startActivity(intent)
+        }
+
         val btnAgregarPlan = findViewById<ImageButton>(R.id.bt_agregar_plan)
         btnAgregarPlan.setOnClickListener {
             val intent = Intent(this, crear_plan::class.java)
             startActivity(intent)
         }
+
+        val imageButtonInfoPlanes = findViewById<ImageButton>(R.id.image_bt_info_planes)
+        imageButtonInfoPlanes.setOnClickListener {
+            val intent = Intent(this, Informacion::class.java)
+            startActivity(intent)
+        }
+
 
         // Inicializar Firebase Firestore
         firestore = FirebaseFirestore.getInstance()
