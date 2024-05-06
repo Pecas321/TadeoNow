@@ -24,13 +24,13 @@
             android:name=".agregar_plan"
             android:exported="false" />
         <activity
+            android:name=".Informacion"
+            android:exported="false" />
+        <activity
             android:name=".planes"
             android:exported="false" />
         <activity
             android:name=".usuario"
-            android:exported="false" />
-        <activity
-            android:name=".Registrarse"
             android:exported="false" />
         <activity
             android:name=".Inicio"

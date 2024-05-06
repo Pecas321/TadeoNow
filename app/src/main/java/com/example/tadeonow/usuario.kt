@@ -1,7 +1,9 @@
 package com.example.tadeonow
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageButton
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -19,6 +21,13 @@ class usuario : AppCompatActivity() {
 
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_usuario)
+
+        val imageButton = findViewById<ImageButton>(R.id.imagen_casa_usuario)
+        imageButton.setOnClickListener {
+            val intent = Intent(this, planes::class.java)
+            startActivity(intent)
+        }
+
 
         //Setup
 
