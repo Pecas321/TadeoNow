@@ -40,11 +40,6 @@ class Informacion : AppCompatActivity() {
             val intent = Intent(this, Biblioteca::class.java)
             startActivity(intent)
         }
-        val btnSalones = findViewById<Button>(R.id.Bt_salones)
-        btnSalones.setOnClickListener {
-            val intent = Intent(this, Salones::class.java)
-            startActivity(intent)
-        }
 
 
 
