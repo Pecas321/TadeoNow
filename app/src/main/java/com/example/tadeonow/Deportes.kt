@@ -1,5 +1,6 @@
 package com.example.tadeonow
 
+
 import android.content.Intent
 import android.os.Bundle
 import android.widget.ImageButton
@@ -19,11 +20,7 @@ class Deportes : AppCompatActivity() {
             val intent = Intent(this, usuario::class.java)
             startActivity(intent)
         }
-        val btnPlanes = findViewById<ImageButton>(R.id.casa_deportes)
-        btnPlanes.setOnClickListener {
-            val intent = Intent(this, planes::class.java)
-            startActivity(intent)
-        }
+
         val btnAgregarPlan = findViewById<ImageButton>(R.id.crea_deportes)
         btnAgregarPlan.setOnClickListener {
             val intent = Intent(this, agregar_plan::class.java)

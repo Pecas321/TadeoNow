@@ -1,5 +1,6 @@
 package com.example.tadeonow
 
+import Plan
 import android.content.Intent
 import android.os.Bundle
 import android.widget.ImageButton
@@ -7,6 +8,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.example.tadeonow.R
 
 class Biblioteca : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -19,7 +21,7 @@ class Biblioteca : AppCompatActivity() {
         }
         val btnPlanes = findViewById<ImageButton>(R.id.casa_biblioteca)
         btnPlanes.setOnClickListener {
-            val intent = Intent(this, planes::class.java)
+            val intent = Intent(this, Plan::class.java)
             startActivity(intent)
         }
         val btnAgregarPlan = findViewById<ImageButton>(R.id.crea_biblioteca)

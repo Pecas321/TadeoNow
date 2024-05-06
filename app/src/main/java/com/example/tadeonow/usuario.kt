@@ -1,5 +1,6 @@
 package com.example.tadeonow
 
+import com.example.tadeonow.agregar_plan
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
@@ -22,11 +23,6 @@ class usuario : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_usuario)
 
-        val imageButton = findViewById<ImageButton>(R.id.imagen_casa_usuario)
-        imageButton.setOnClickListener {
-            val intent = Intent(this, planes::class.java)
-            startActivity(intent)
-        }
 
         val btnInformacion = findViewById<ImageButton>(R.id.image_bt_info)
         btnInformacion.setOnClickListener {
