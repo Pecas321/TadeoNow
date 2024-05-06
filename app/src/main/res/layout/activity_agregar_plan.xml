@@ -27,7 +27,7 @@
             android:id="@+id/btn_agregar_plan"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            tools:backgroundTint="#072848"
-            android:text="AGREGAR PLAN" />
+            android:text="AGREGAR PLAN"
+            tools:backgroundTint="#072848" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
