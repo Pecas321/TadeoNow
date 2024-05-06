@@ -24,9 +24,6 @@
             android:name=".Registrarse"
             android:exported="false" />
         <activity
-            android:name=".IniciarSesion"
-            android:exported="false" />
-        <activity
             android:name=".Inicio"
             android:exported="true">
             <intent-filter>
