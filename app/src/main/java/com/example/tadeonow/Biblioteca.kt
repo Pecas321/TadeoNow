@@ -1,6 +1,6 @@
 package com.example.tadeonow
 
-import Plan
+import com.example.tadeonow.planes
 import android.content.Intent
 import android.os.Bundle
 import android.widget.ImageButton
@@ -21,7 +21,7 @@ class Biblioteca : AppCompatActivity() {
         }
         val btnPlanes = findViewById<ImageButton>(R.id.casa_biblioteca)
         btnPlanes.setOnClickListener {
-            val intent = Intent(this, Plan::class.java)
+            val intent = Intent(this, planes::class.java)
             startActivity(intent)
         }
         val btnAgregarPlan = findViewById<ImageButton>(R.id.crea_biblioteca)

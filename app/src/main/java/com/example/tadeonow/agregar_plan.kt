@@ -1,7 +1,7 @@
 package com.example.tadeonow
 
-import Plan
-import PlanesAdapter
+import com.example.tadeonow.planes
+import com.example.tadeonow.PlanesAdapter
 import android.content.Intent
 import android.os.Bundle
 import android.widget.ImageButton
@@ -45,13 +45,13 @@ class agregar_plan : AppCompatActivity() {
             .get()
             .addOnSuccessListener { documents ->
                 // Convertir los documentos en una lista de Planes
-                val planesList = mutableListOf<Plan>()
+                val planesList = mutableListOf<planes>()
                 for (document in documents) {
                     val nombre = document.getString("nombre") ?: ""
                     val horario = document.getString("horario") ?: ""
                     val ubicacion = document.getString("ubicacion") ?: ""
                     val asistentes = document.getLong("asistentes")?.toInt() ?: 0
-                    val plan = Plan(nombre, horario, ubicacion, asistentes)
+                    val plan = planes(nombre, horario, ubicacion, asistentes)
                     planesList.add(plan)
                 }
                 // Mostrar la lista de Planes en el RecyclerView

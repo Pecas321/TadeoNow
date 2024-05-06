@@ -1,3 +1,5 @@
+package com.example.tadeonow
+
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -6,12 +8,12 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.tadeonow.R
 
 // Clase Plan para representar un objeto de plan
-data class Plan(val nombre: String, val horario: String, val ubicacion: String, val asistentes: Int)
+data class planes(val nombre: String, val horario: String, val ubicacion: String, val asistentes: Int)
 
 // Adaptador para mostrar los datos en el RecyclerView
 class PlanesAdapter : RecyclerView.Adapter<PlanesAdapter.PlanViewHolder>() {
 
-    private var planesList = listOf<Plan>()
+    private var planesList = listOf<planes>()
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PlanViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.item_plan, parent, false)
@@ -27,13 +29,13 @@ class PlanesAdapter : RecyclerView.Adapter<PlanesAdapter.PlanViewHolder>() {
         return planesList.size
     }
 
-    fun setPlanes(planes: List<Plan>) {
+    fun setPlanes(planes: List<planes>) {
         this.planesList = planes
         notifyDataSetChanged()
     }
 
     class PlanViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        fun bind(plan: Plan) {
+        fun bind(plan: planes) {
             itemView.apply {
                 findViewById<TextView>(R.id.tituloPlan1).text = plan.nombre
                 findViewById<TextView>(R.id.dato1_plan1).text = "HORARIO: ${plan.horario}"

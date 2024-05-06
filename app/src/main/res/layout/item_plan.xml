@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:backgroundTint="#133D60"
     android:background="#133D60"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     tools:context=".Planes">
 
 
@@ -22,6 +22,7 @@
         android:id="@+id/linear_layout_planes"
         android:layout_width="416dp"
         android:layout_height="146dp"
+        android:layout_marginTop="10dp"
         android:background="#95A1A9"
         android:backgroundTint="#95A1A9"
         android:orientation="horizontal"
@@ -31,7 +32,7 @@
         app:layout_constraintHorizontal_bias="0.6"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.094"
+        app:layout_constraintVertical_bias="1.0"
         tools:background="#A886E4">>
 
         <LinearLayout
@@ -86,8 +87,6 @@
                 android:layout_height="wrap_content" />
         </LinearLayout>
     </LinearLayout>
-
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
