@@ -23,9 +23,7 @@
         <activity
             android:name=".Deportes"
             android:exported="false" />
-        <activity
-            android:name=".fawergqewrg"
-            android:exported="false" />
+
         <activity
             android:name=".crear_plan"
             android:exported="false" />
