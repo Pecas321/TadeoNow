@@ -19,5 +19,4 @@ Información Detallada sobre la Universidad:
 
 Deportes: Explora las opciones deportivas disponibles en la universidad, incluyendo horarios de clases, instalaciones y eventos deportivos.
 Biblioteca: Descubre recursos educativos disponibles en la biblioteca universitaria, incluyendo horarios de apertura, reservas de salas de estudio y acceso a bases de datos.
-Salones: Obtén información sobre los diferentes salones de estudio disponibles en el campus, incluyendo horarios de disponibilidad y capacidad.
 Con TadeoNow, la diversión y la planificación van de la mano, brindando a los estudiantes una forma conveniente y eficiente de aprovechar al máximo su tiempo en la universidad. Únete a la comunidad TadeoNow y comienza a crear momentos inolvidables hoy mismo.
