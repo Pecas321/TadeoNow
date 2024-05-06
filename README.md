@@ -1,10 +1,23 @@
-Glide is a fast and efficient open source media management and image loading framework for Android that wraps media decoding, memory and disk caching, and resource pooling into a simple and easy to use interface.
+TadeoNow: Tu Plataforma para Planificar y Disfrutar
 
+TadeoNow es una aplicación móvil diseñada para facilitar la planificación y organización de actividades recreativas y de ocio en el entorno universitario. Con una interfaz intuitiva y funcionalidades poderosas, TadeoNow permite a los usuarios crear, descubrir y unirse a una amplia variedad de planes diseñados para disfrutar al máximo del tiempo libre en la universidad.
 
+Principales Características:
 
-Glide supports fetching, decoding, and displaying video stills, images, and animated GIFs. Glide includes a flexible API that allows developers to plug in to almost any network stack. By default Glide uses a custom HttpUrlConnection based stack, but also includes utility libraries plug in to Google's Volley project or Square's OkHttp library instead.
+Crear y Unirse a Planes:
+Los usuarios pueden crear sus propios planes de actividades y eventos, invitando a otros usuarios a unirse.
+Explora una diversidad de planes creados por otros usuarios, desde salidas al aire libre hasta noches de estudio en grupo.
+Autenticación Segura con Firebase:
+La autenticación de usuarios se gestiona de forma segura mediante Firebase, garantizando la privacidad y seguridad de la información personal.
+Exploración de la Universidad:
+Accede a un apartado dedicado que proporciona información detallada sobre las instalaciones y servicios disponibles en la universidad.
+Descubre actividades deportivas, recursos de la biblioteca y salones de estudio, junto con horarios de disponibilidad.
+Interacción Social:
+Comparte tus planes con amigos y compañeros de clase a través de redes sociales integradas.
+Conéctate con otros usuarios con intereses similares y haz nuevos amigos mientras disfrutas de las actividades planificadas.
+Información Detallada sobre la Universidad:
 
-Glide's primary focus is on making scrolling any kind of a list of images as smooth and fast as possible, but Glide is also effective for almost any case where you need to fetch, resize, and display a remote image.
-
-Download
-For detailed instructions and requirements, see Glide's download and setup docs page.
+Deportes: Explora las opciones deportivas disponibles en la universidad, incluyendo horarios de clases, instalaciones y eventos deportivos.
+Biblioteca: Descubre recursos educativos disponibles en la biblioteca universitaria, incluyendo horarios de apertura, reservas de salas de estudio y acceso a bases de datos.
+Salones: Obtén información sobre los diferentes salones de estudio disponibles en el campus, incluyendo horarios de disponibilidad y capacidad.
+Con TadeoNow, la diversión y la planificación van de la mano, brindando a los estudiantes una forma conveniente y eficiente de aprovechar al máximo su tiempo en la universidad. Únete a la comunidad TadeoNow y comienza a crear momentos inolvidables hoy mismo.
