@@ -28,6 +28,18 @@ class usuario : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val btnInformacion = findViewById<ImageButton>(R.id.image_bt_info)
+        btnInformacion.setOnClickListener {
+            val intent = Intent(this, Informacion::class.java)
+            startActivity(intent)
+        }
+        val btnCrearPlan = findViewById<ImageButton>(R.id.image_crear_usuario)
+        btnCrearPlan.setOnClickListener {
+            val intent = Intent(this, agregar_plan::class.java)
+            startActivity(intent)
+        }
+
+
 
         //Setup
 
