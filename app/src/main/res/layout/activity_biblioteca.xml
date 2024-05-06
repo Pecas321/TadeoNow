@@ -5,43 +5,70 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Deportes"
+    tools:context=".Biblioteca"
     android:background="#133D60">
 
     <TextView
-        android:id="@+id/text_deportes_2"
+        android:id="@+id/viewbiblioteca"
+        android:layout_width="412dp"
+        android:layout_height="67dp"
+        android:background="#052A4C"
+        android:gravity="center"
+        android:text="Biblioteca"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.155"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.01"
+        app:srcCompat="@drawable/book_solid__1_" />
+
+    <TextView
+        android:id="@+id/text_biblioteca_2"
         android:layout_width="359dp"
         android:layout_height="112dp"
-        android:text="HORA ENTRENO TENIS DE MESA: 2:30PM HORA ENTRENO VOLEIBOL: 12:45PM         HORA ENTRENO SQUASH: 4:30PM
-        HORA ENTRENO FULTOL: 5:00PM
+        android:text="-SALON 1 DESDE LAS 4:30PM
+        -SALON 2 DESDE LAS 2:00PM
 "
         android:textColor="#FFFFFF"
         android:textSize="19sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.519"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.775" />
+        app:layout_constraintVertical_bias="0.701" />
 
     <TextView
-        android:id="@+id/text_horarios_deportes"
-        android:layout_width="299dp"
-        android:layout_height="48dp"
+        android:id="@+id/text_horarios_biblioteca"
+        android:layout_width="312dp"
+        android:layout_height="51dp"
         android:background="#181A26"
         android:gravity="center"
-        android:text="Horarios de entrenamiento"
+        android:text="Horarios salones disponibles"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.535"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.612" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/crea_deportes"
+        android:id="@+id/crea_biblioteca"
         android:layout_width="70dp"
         android:layout_height="60dp"
         android:background="#133D60"
@@ -54,7 +81,7 @@
         app:srcCompat="@drawable/mas" />
 
     <TextView
-        android:id="@+id/text_crear_deportes"
+        android:id="@+id/text_crear_biblioteca"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=" Crear Plan"
@@ -67,7 +94,7 @@
         app:layout_constraintVertical_bias="0.976" />
 
     <ImageButton
-        android:id="@+id/casa_deportes"
+        android:id="@+id/casa_biblioteca"
         android:layout_width="70dp"
         android:layout_height="60dp"
         android:background="#133D60"
@@ -80,7 +107,7 @@
         app:srcCompat="@drawable/casarelleno" />
 
     <TextView
-        android:id="@+id/text_planes_deportes"
+        android:id="@+id/text_planes_biblioteca"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Planes"
@@ -93,7 +120,7 @@
         app:layout_constraintVertical_bias="0.976" />
 
     <ImageButton
-        android:id="@+id/bt_usuario_deportes"
+        android:id="@+id/bt_usuario_biblioteca"
         android:layout_width="70dp"
         android:layout_height="60dp"
         android:background="#133D60"
@@ -106,7 +133,7 @@
         app:srcCompat="@drawable/usuario__1_" />
 
     <TextView
-        android:id="@+id/text_usuario_deportes"
+        android:id="@+id/text_usuario_biblioteca"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Usuario"
@@ -119,7 +146,7 @@
         app:layout_constraintVertical_bias="0.977" />
 
     <ImageButton
-        android:id="@+id/imagen_ideportes"
+        android:id="@+id/imagen_biblioteca"
         android:layout_width="70dp"
         android:layout_height="60dp"
         android:background="#133D60"
@@ -132,7 +159,7 @@
         app:srcCompat="@drawable/info_solid" />
 
     <TextView
-        android:id="@+id/text_info_deportes"
+        android:id="@+id/text_info_biblioteca"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Info U"
@@ -143,35 +170,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.977" />
-
-    <TextView
-        android:id="@+id/viewdeportes"
-        android:layout_width="412dp"
-        android:layout_height="67dp"
-        android:background="#052A4C"
-        android:gravity="center"
-        android:text="Deportes"
-        android:textColor="#FFFFFF"
-        android:textSize="40sp"
-        android:textStyle="normal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.166"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.01"
-        app:srcCompat="@drawable/volleyball_solid" />
 
     <ImageView
         android:id="@+id/imageView5"
@@ -186,7 +184,7 @@
         app:srcCompat="@drawable/circle_solid" />
 
     <TextView
-        android:id="@+id/text_info_deportes"
+        android:id="@+id/text_info_biblioteca"
         android:layout_width="299dp"
         android:layout_height="48dp"
         android:background="#181A26"
@@ -196,30 +194,28 @@
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/viewdeportes"
-        app:layout_constraintVertical_bias="0.133" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.146" />
 
     <TextView
-        android:id="@+id/text_deportes_1"
-        android:layout_width="208dp"
-        android:layout_height="247dp"
-        android:text="TENIS DE MESA      CANCHA PRINCIPAL DEPORTES
-        CHANCHA BÁDMINTON
-        CANCHAS SQUASH
-        BALON FÚTBOL
-        BALON MICRO
-        BALON VOLEIBOL
-        BALON BASQUETBALL
+        android:id="@+id/text_biblioteca_1"
+        android:layout_width="300dp"
+        android:layout_height="122dp"
+        android:text="-DIVERSOS JUEGOS DE CARTAS
+        -DIVERSOS JUEGOS DE MESA
+        -LEER INCREIBLES LIBROS
+        -ARMAR ROMPECABEZAS
 "
         android:textColor="#FFFFFF"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.133"
+        app:layout_constraintHorizontal_bias="0.243"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.316" />
+        app:layout_constraintVertical_bias="0.307" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -130,34 +130,6 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:id="@+id/Bt_salones"
-        android:layout_width="300dp"
-        android:layout_height="80dp"
-        android:backgroundTint="#181A26"
-        android:text="Salones"
-        android:textColor="#FFFFFF"
-        android:textSize="20sp"
-        app:cornerRadius="12dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.620" />
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.204"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.61"
-        app:srcCompat="@drawable/desktop_solid" />
-
-    <Button
         android:id="@+id/Bt_deportes"
         android:layout_width="300dp"
         android:layout_height="80dp"
