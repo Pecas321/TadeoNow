@@ -39,8 +39,8 @@
 
     <TextView
         android:id="@+id/text_biblioteca_2"
-        android:layout_width="359dp"
-        android:layout_height="112dp"
+        android:layout_width="256dp"
+        android:layout_height="122dp"
         android:text="-SALON 1 DESDE LAS 4:30PM
         -SALON 2 DESDE LAS 2:00PM
 "
@@ -48,9 +48,10 @@
         android:textSize="19sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.232"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.701" />
+        app:layout_constraintVertical_bias="0.711" />
 
     <TextView
         android:id="@+id/text_horarios_biblioteca"
@@ -145,7 +146,7 @@
         app:srcCompat="@drawable/circle_solid" />
 
     <TextView
-        android:id="@+id/text_info_biblioteca"
+        android:id="@+id/text_info_biblioteca3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Info U"

@@ -19,11 +19,6 @@ class Biblioteca : AppCompatActivity() {
             val intent = Intent(this, usuario::class.java)
             startActivity(intent)
         }
-        val btnPlanes = findViewById<ImageButton>(R.id.casa_biblioteca)
-        btnPlanes.setOnClickListener {
-            val intent = Intent(this, planes::class.java)
-            startActivity(intent)
-        }
         val btnAgregarPlan = findViewById<ImageButton>(R.id.crea_biblioteca)
         btnAgregarPlan.setOnClickListener {
             val intent = Intent(this, agregar_plan::class.java)

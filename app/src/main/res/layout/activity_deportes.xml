@@ -118,7 +118,7 @@
         app:srcCompat="@drawable/circle_solid" />
 
     <TextView
-        android:id="@+id/text_info_deportes"
+        android:id="@+id/text_info_deportes3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Info U"
