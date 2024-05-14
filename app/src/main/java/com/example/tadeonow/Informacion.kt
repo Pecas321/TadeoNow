@@ -29,7 +29,7 @@ class Informacion : AppCompatActivity() {
 
         val btnDeportes = findViewById<Button>(R.id.Bt_deportes)
         btnDeportes.setOnClickListener {
-            val intent = Intent(this, Deportes::class.java)
+            val intent = Intent(this, Deportes_info::class.java)
             startActivity(intent)
         }
         val btnBiblioteca = findViewById<Button>(R.id.Bt_biblioteca)
