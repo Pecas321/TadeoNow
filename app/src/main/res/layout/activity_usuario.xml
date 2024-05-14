@@ -34,10 +34,10 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.147"
+        app:layout_constraintHorizontal_bias="0.144"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.180" />
+        app:layout_constraintTop_toBottomOf="@+id/Viewusuario"
+        app:layout_constraintVertical_bias="0.088" />
 
     <TextView
         android:id="@+id/email_usuario"
@@ -53,8 +53,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.240" />
+        app:layout_constraintTop_toBottomOf="@+id/usuario_correo"
+        app:layout_constraintVertical_bias="0.013" />
 
     <TextView
         android:id="@+id/usuario_contraseña"
@@ -67,8 +67,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.213"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.360" />
+        app:layout_constraintTop_toBottomOf="@+id/email_usuario"
+        app:layout_constraintVertical_bias="0.079" />
 
     <TextView
         android:id="@+id/proveedor_usuario"
@@ -84,8 +84,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.420" />
+        app:layout_constraintTop_toBottomOf="@+id/usuario_contraseña"
+        app:layout_constraintVertical_bias="0.022" />
+
 
     <Button
         android:id="@+id/Bt_cerrar_sesion"
@@ -99,9 +100,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.580" />
-
+        app:layout_constraintTop_toBottomOf="@+id/proveedor_usuario"
+        app:layout_constraintVertical_bias="0.328" />
 
     <ImageButton
         android:id="@+id/image_crear_usuario"
