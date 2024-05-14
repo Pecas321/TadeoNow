@@ -18,7 +18,7 @@
         android:textColor="#FFFFFF"
         android:textSize="40sp"
         android:textStyle="normal"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/text_info_biblioteca"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -39,34 +39,35 @@
 
     <TextView
         android:id="@+id/text_biblioteca_2"
-        android:layout_width="256dp"
-        android:layout_height="122dp"
-        android:text="-SALON 1 DESDE LAS 4:30PM
-        -SALON 2 DESDE LAS 2:00PM
-"
+        android:layout_width="291dp"
+        android:layout_height="124dp"
+        android:background="@drawable/fondoinicio1"
+        android:padding="12dp"
+        android:text="-SALON 1 DESDE LAS 4:30PM         -SALON 2 DESDE LAS 2:00PM     -SALON 3 DESDE LAS 10:00AM "
         android:textColor="#FFFFFF"
         android:textSize="19sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.232"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.711" />
+        app:layout_constraintVertical_bias="0.675" />
 
     <TextView
         android:id="@+id/text_horarios_biblioteca"
-        android:layout_width="312dp"
-        android:layout_height="51dp"
-        android:background="#181A26"
+        android:layout_width="334dp"
+        android:layout_height="46dp"
+        android:background="@drawable/fondoinicio1"
+        android:backgroundTint="#052A4C"
         android:gravity="center"
         android:text="Horarios salones disponibles"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/text_biblioteca_2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.911" />
 
     <ImageButton
         android:id="@+id/crea_biblioteca"
@@ -162,22 +163,24 @@
         android:id="@+id/text_info_biblioteca"
         android:layout_width="299dp"
         android:layout_height="48dp"
-        android:background="#181A26"
+        android:background="@drawable/fondoinicio1"
+        android:backgroundTint="#052A4C"
         android:gravity="center"
         android:text="Que hay para jugar?"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/text_biblioteca_1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.146" />
+        app:layout_constraintVertical_bias="0.815" />
 
     <TextView
         android:id="@+id/text_biblioteca_1"
-        android:layout_width="300dp"
-        android:layout_height="122dp"
+        android:layout_width="315dp"
+        android:layout_height="137dp"
+        android:background="@drawable/fondoinicio1"
+        android:padding="12dp"
         android:text="-DIVERSOS JUEGOS DE CARTAS
         -DIVERSOS JUEGOS DE MESA
         -LEER INCREIBLES LIBROS
@@ -185,12 +188,11 @@
 "
         android:textColor="#FFFFFF"
         android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/text_horarios_biblioteca"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.243"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.307" />
+        app:layout_constraintVertical_bias="0.849" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

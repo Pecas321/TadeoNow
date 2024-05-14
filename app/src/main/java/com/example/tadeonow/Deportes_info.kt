@@ -9,11 +9,11 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
-class Deportes : AppCompatActivity() {
+class Deportes_info : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_deportes)
+        setContentView(R.layout.activity_deportes_info)
 
         val btnUsuario = findViewById<ImageButton>(R.id.bt_usuario_deportes)
         btnUsuario.setOnClickListener {
